@@ -22,3 +22,14 @@ bool isValid = BCrypt.Net.BCrypt.Verify("password", hash);
 // Генерация соли (при необходимости)
 string salt = BCrypt.Net.BCrypt.GenerateSalt();
 string salt = BCrypt.Net.BCrypt.GenerateSalt(12);
+
+
+Формат хэша
+$2a$10$N9qo8uLOickgx2ZMRZoMy.Mr/FuX7K2vD/hTp9GgX8L.kP8Yx3tS2
+Часть                                         Обозначение
+$2a$	                                        Версия алгоритма ($2a$, $2b$, $2y$)
+10	                                          Стоимость (2^10 = 1024 итерации/раунда)
+N9qo8uLOickgx2ZMRZoMy	                        Соль (22 символа в base64)
+Mr/FuX7K2vD/hTp9GgX8L.kP8Yx3tS2             	Хэш (31 символ)
+
+
