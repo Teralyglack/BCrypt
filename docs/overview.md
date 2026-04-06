@@ -2,7 +2,17 @@
 
 ## Структура проекта
 
-
+BCryptNet/
+├── docs/
+│   ├── task.md          # Цели и требования
+│   ├── sources.md       # Источники и ссылки
+│   └── overview.md      # Обзор проекта
+├── BCrypt/
+│  | └── Program.cs
+|  └── BCrypt.csproj
+├── README.md
+├── BCrypt.slnx
+└── .gitignore
 
 
 ## Используемые компоненты
