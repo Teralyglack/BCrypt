@@ -34,6 +34,8 @@ Mr/FuX7K2vD/hTp9GgX8L.kP8Yx3tS2    Хэш (31 символ)
 
 Параметр стоимости (work factor / cost)
 Work factor определяет количество раундов хэширования: 2^work_factor. Каждое увеличение на 1 удваивает время вычисления.
+
+
 <img width="772" height="311" alt="image" src="https://github.com/user-attachments/assets/c4f7994a-b754-4aec-9d08-227a3202efb7" />
 
 Как библиотека использует алгоритм
