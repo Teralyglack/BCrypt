@@ -75,6 +75,19 @@ public static bool Verify(string password, string hash)
 
 Важно: функция Verify НЕ расшифровывает хэш. Она заново вычисляет хэш пароля, используя ту же соль, и сравнивает результаты. Это единственно возможный способ проверки, так как хэш-функции необратимы.
 
+Запуск нашей программы:
+
+Пароли совпадают:
+
+<img width="1008" height="393" alt="image" src="https://github.com/user-attachments/assets/6a1c414c-a33b-482d-9a28-b31fe5f3c664" />
+
+Пароли не совпадают:
+
+<img width="1047" height="444" alt="image" src="https://github.com/user-attachments/assets/bb02ad3e-492e-4683-a797-7e08fcef3d10" />
+
+Обработка ошибок:
+
+<img width="758" height="298" alt="image" src="https://github.com/user-attachments/assets/c73d7c17-591f-40ea-a7bf-6ce53d405145" />
 
 
 ## Особенности реализации BCrypt.Net-Next
